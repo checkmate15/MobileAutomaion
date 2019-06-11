@@ -21,6 +21,13 @@ public class HomePage extends MobileAPI2{
     @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.TextView")
     public WebElement matchesn;
 
+    @FindBy(xpath = "//android.widget.ImageView[@index='1']")
+    WebElement featuredmatch;
+
+    public void setFeaturedmatch(){
+        featuredmatch.click();
+    }
+
     public void theme(){
         settings.click();
         darkTheme.click();

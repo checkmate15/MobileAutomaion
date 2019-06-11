@@ -11,7 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>TDbank</module>
-        <module>UiCatalog</module>
+
         <module>Cricbuzz</module>
     </modules>
 

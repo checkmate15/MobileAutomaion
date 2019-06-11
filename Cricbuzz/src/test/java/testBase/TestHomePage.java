@@ -14,6 +14,11 @@ public class TestHomePage extends MobileAPI2 {
         homePage = PageFactory.initElements(appiumDriver, HomePage.class);
     }
 
+    @Test
+    public void clickfeaturedmatch(){
+        homePage.setFeaturedmatch();
+    }
+
     @Test(enabled = false)
     public void testClick(){
         homePage.theme();
